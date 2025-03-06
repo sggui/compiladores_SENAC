@@ -15,7 +15,7 @@ Os dois arquivos criados (soma.mem e multiplicacao_entrega.mem) foram feitos no 
 
 Subi apenas para demonstração. Não necessariamente precisam ser esses arquivos.
 
-########### PARA EXECUTAR O CODIGO DO LEXER###########
+########### PARA EXECUTAR O CODIGO DO LEXER ###########
 
 Entrar na pasta lexer_atv1
 
