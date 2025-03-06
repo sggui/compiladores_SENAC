@@ -4,6 +4,10 @@
 ```sh
 git clone https://github.com/sggui/compiladores_SENAC.git
 ```
+- Entrar na pasta executor_atv1
+```sh
+cd ./compiladores_SENAC/executor_atv1/
+```
 - Compilar o código:
 ```sh
 gcc -W -Wall -pedantic -std=c99 -o simulador main.c
@@ -18,8 +22,6 @@ Os dois arquivos criados (soma.mem e multiplicacao_entrega.mem) foram feitos no 
 Subi apenas para demonstração. Não necessariamente precisam ser esses arquivos.
 
 ## **LEXER**
-
-Entrar na pasta lexer_atv1
 
 Executar:
 
