@@ -23,16 +23,22 @@ Subi apenas para demonstração. Não necessariamente precisam ser esses arquivo
 
 ## **LEXER**
 
-Executar:
-
+- Clonar o repositório:
+```sh
+git clone https://github.com/sggui/compiladores_SENAC.git
+```
+- Entrar na pasta lexer_atv1
+```sh
+cd ./compiladores_SENAC/lexer_atv1/
+```
+- Compilar o código:
+```sh
 gcc -o lexer main.c Lexer.c
-
-Após isso, finalizar:
-
+```
+- Após isso, para finalizar o teste, executar:
+```sh
 ./lexer <arquivo_para_teste>.txt
-
-Observação:
-O arquivo criado (entrada.txt) pode ser substituido por qualquer outro.
-
-Subi apenas para demonstração. Não necessariamente precisa ser esse arquivo.
+```
+## **OBSERVAÇÃO**
+O arquivo criado  (entrada.txt) foi feito apenas para teste, não necessariamente precisa ser ele. Pode ser um outro TXT.
 
