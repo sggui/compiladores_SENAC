@@ -1,16 +1,18 @@
 ## **NEANDER (EXECUTOR)**
 
-Entrar na pasta executor_atv1
-
-Executar:
-
+- Clonar o repositório:
+```sh
+git clone https://github.com/sggui/compiladores_SENAC.git
+```
+- Compilar o código:
+```sh
 gcc -W -Wall -pedantic -std=c99 -o simulador main.c
-
-Após isso, finalizar:
-
+```
+- Após isso, para finalizar o teste, executar:
+```sh
 ./simulador <arquivo_para_teste>.mem
-
-Observação:
+```
+## **OBSERVAÇÃO**
 Os dois arquivos criados (soma.mem e multiplicacao_entrega.mem) foram feitos no neander e exportados.
 
 Subi apenas para demonstração. Não necessariamente precisam ser esses arquivos.
