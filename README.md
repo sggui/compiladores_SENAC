@@ -21,7 +21,7 @@ Os dois arquivos criados (soma.mem e multiplicacao_entrega.mem) foram feitos no 
 
 Subi apenas para demonstração. Não necessariamente precisam ser esses arquivos.
 
-## **LEXER**
+## **ASSEMBLER**
 
 - Clonar o repositório:
 ```sh
