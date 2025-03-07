@@ -33,7 +33,7 @@ cd ./compiladores_SENAC/lexer_atv1/
 ```
 - Compilar o código:
 ```sh
-gcc -o assembler main.c paser.c lexer.c -Wall
+gcc -o assembler main.c parser.c lexer.c -Wall
 ```
 - Após isso, para finalizar o teste, executar:
 ```sh
