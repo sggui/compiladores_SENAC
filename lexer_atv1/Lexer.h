@@ -2,32 +2,28 @@
 #define LEXER_H
 
 #include <stdio.h>
-#include <ctype.h>
-#include <stdlib.h>
 
-// Definição dos tipos de token
 typedef enum {
     TOKEN_INT,
-    TOKEN_LPAREN,
-    TOKEN_RPAREN,
-    TOKEN_MAIS,
-    TOKEN_MENOS,
+    TOKEN_DATA,
+    TOKEN_CODE,
+    TOKEN_END,
+    TOKEN_LDA,
+    TOKEN_ADD,
+    TOKEN_SUB,
+    TOKEN_MUL,
     TOKEN_DIV,
-    TOKEN_MULT,
-    TOKEN_EOF,
-    TOKEN_INVALID
+    TOKEN_IDENT,
+    TOKEN_EOF
 } TokenType;
 
-// Estrutura do Token
 typedef struct {
     TokenType type;
     int value;
 } Token;
 
-// Função para obter o próximo token
 Token next_token();
-
-// Função para executar o lexer
 void executar_lexer(FILE *input);
 
 #endif
+

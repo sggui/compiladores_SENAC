@@ -1,1 +1,8 @@
-10 + 20 * (30 - 40) / 50
+DATA 0 5, 1 10, 2 15, 3 20
+END
+
+CODE
+LDA 0; ADD 1; ADD 2;
+ADD 3; SUB 4; MUL 5; DIV 6;
+END
+
