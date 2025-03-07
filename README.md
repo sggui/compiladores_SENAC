@@ -33,11 +33,11 @@ cd ./compiladores_SENAC/lexer_atv1/
 ```
 - Compilar o código:
 ```sh
-gcc -o lexer main.c Lexer.c
+gcc -o assembler main.c paser.c lexer.c -Wall
 ```
 - Após isso, para finalizar o teste, executar:
 ```sh
-./lexer <arquivo_para_teste>.txt
+./assembler <arquivo_de_codigo>.txt <output>.mem
 ```
 ## **OBSERVAÇÃO**
 O arquivo criado  (entrada.txt) foi feito apenas para teste, não necessariamente precisa ser ele. Pode ser um outro TXT.
