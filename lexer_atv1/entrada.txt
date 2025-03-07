@@ -1,8 +1,15 @@
-DATA 0 5, 1 10, 2 15, 3 20
-END
+; Comentario
+; x = a +b
 
-CODE
-LDA 0; ADD 1; ADD 2;
-ADD 3; SUB 4; MUL 5; DIV 6;
-END
+; Variaveis
+; posicao valor
+.DATA
+80 5 ; comentario
+81 2
 
+
+.CODE
+LDA 80
+ADD 81 ; comentario
+STA 82
+HLT
