@@ -27,13 +27,13 @@ Subi apenas para demonstração. Não necessariamente precisam ser esses arquivo
 ```sh
 git clone https://github.com/sggui/compiladores_SENAC.git
 ```
-- Entrar na pasta lexer_atv1
+- Entrar na pasta assembler_atv1
 ```sh
-cd ./compiladores_SENAC/lexer_atv1/
+cd ./compiladores_SENAC/assembler_atv1/
 ```
 - Compilar o código:
 ```sh
-gcc -o assembler main.c parser.c lexer.c -Wall
+gcc -o assembler Tokenizer.c main.c Assembler.c -Wall
 ```
 - Após isso, para finalizar o teste, executar:
 ```sh
